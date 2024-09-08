@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  HomeVC.swift
 //  SpringBootDemo
 //
 //  Created by Sarthak Agrawal on 06/09/24.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        navigationItem.title = "Home"
     }
-
-
 }
-
